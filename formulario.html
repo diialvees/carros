@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">AutoPremium</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carros.html">Carros à Venda</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <h1>FORMULARIO</h1>
+
+    <div class="container-form">
+        <label for="">Nome</label>
+        <input type="text" name="cliente" id="cliente">
+        <label for="">Telefone</label>
+        <input type="text" name="telefone" id="telefone">
+        <label for="">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="">Endereço</label>
+        <input type="text" name="endereco" id="endereco">
+
+    </div>
+
+    <div class="genero">
+        <label for="">Genero</label><br>
+        <select name="" id="">
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+        </select>
+    </div>
+
+
+    <div class="estado-civil">
+        <label for="">Estado Civil:</label><br>
+       
+        <label for="">Casado</label>
+        <input type="radio" value="Casado" name="estado">
+       
+        <label for="">Solteiro</label>
+        <input type="radio" value="Solteiro" name="estado">
+       
+        <label for="">Divorciado</label>
+        <input type="radio" value="Divorciado" name="estado">
+    </div>
+
+    <div class="indicacao">
+        <label for="">Como Conheceu nosso site?</label><br>
+       
+        <label for="">Propaganda de TV</label>
+        <input type="checkbox" name="informacao" id="" value="Jornal">
+        
+        <label for="">Redes Sociais</label>
+        <input type="checkbox" name="informacao" id="" value="redes sociais">
+       
+        <label for="">Indicação de amigo</label>
+        <input type="checkbox" name="informacao" id="" value="amigo">
+       
+    </div>
+    <div class="button">
+        <button value="enviar" name="enviar">Enviar</button>
+        <input type="button" value="Limpar">
+    </div>
+</body>
+
+</html>
